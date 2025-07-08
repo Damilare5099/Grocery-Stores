@@ -13,54 +13,55 @@
         <nav>
             <div class="innerNav genLayout">
                 <div class="logo">
-                    <span style="color: #fb9006; font-size: px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    <span style="font-size: 45px; color: #fb9006;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
                     <div class="logoText">
                         <h2>grocery</h2>
                         <h4>store</h4>
                     </div>
                 </div>
 
+                <!-- hamburger -->
+          <label for="toggle" class="hamburger">&#9776;</label>
+          <input type="checkbox" id="toggle">
+
                 <div class="navRight">
                     <div class="navItems">
                         <a href="#">home</a>
                         <a href="#">about</a>
                         <a href="#">products</a>
-                        <a href="#">new</a>
+                        <a href="#">news</a>
                         <a href="#">contact</a>
                     </div>
 
                     <div class="navIcons">
                         <span><i class="fa fa-search" aria-hidden="true"></i></span>
                         <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
-                        <button class="btn">shop now</button>
+                        <button class="btn">Shop now</button>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="banner genLayout">
+        <div class="banner genLayout" id="home">
             <div class="bannerContent">
-                <h5><i class="fa fa-shopping-bag" aria-hidden="true"></i> the best online grocery store</i></h5>
+                <h5><i class="fa fa-shopping-bag" aria-hidden="true"></i> the best online grocery store</h5>
 
-                <h1>your one-stop shop for <span>quality groceries</span></h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur a consequuntur est provident non placeat ratione quos excepturi maxime, alias rem assumenda eaque ullam?
-                </p>
+                <h1>your one-stop shop for <span style="color: #178255;">quality groceries</span></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, delectus deserunt ullam facere explicabo harum, repellendus, distinctio pariatur ipsa tempore similique alias saepe ipsum?</p>
 
                 <div class="bannerLink">
                     <button class="btn">Shop now</button>
-                    <a href="#">View all product</a>
+                    <a href="#">View all products</a>
                 </div>
 
                 <div class="rating">
                     <div class="imgRating">
-                        <img src="https://www.independent.co.ug/wp-content/uploads/2022/04/wizkid.jpg" alt="man">
-                        <img src="https://assets.goal.com/images/v3/blt77a560c322c4981d/crop/MM5DCNJTGY5DQNRUHJXG653FHIZTQNB2HA======/Cristiano%20Ronaldo%20Al%20Nassr%202025%20(3).jpg?auto=webp&format=pjpg&width=3840&quality=60" alt="man">
-                        <img src="https://static.independent.co.uk/2023/08/11/17/GettyImages-1433018436.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp" alt="man">
-                        <span class="fa fa-plus" aria-hidden="true"></i></span>
+                        <img src="image/tyrese.avif" alt="man">
+                        <img src="image/wizkid-2021-thatgrapejuice.jpeg" alt="man">
+                        <img src="image/cr7.jpg" alt="man">
+                        <span><i class="fa fa-plus" aria-hidden="true"></i></span>
                     </div>
-
                     <div class="ratingText">
-                        <h5>4.9+ Rating</h5>
+                        <h5 style="font-size: 20px;">4.9+ Rating</h5>
                         <h5>Trusted by 50k+ Customers</h5>
                     </div>
                 </div>
@@ -71,5 +72,173 @@
             </div>
         </div>
      </header>
+
+     <main>
+        <section class="secOne" id="about">
+            <div class="offerWrapper genLayout">
+                <div class="offerContent">
+                    <h5>Weekly offer</h5>
+                    <h1>best quality, healthy and <span>fresh grocery</span></h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur officia architecto est molestias qui facilis, nemo ut veritatis ducimus quasi officiis. Illum, laboriosam?</p>
+                    <button class="btn">Shop now</button>
+                </div>
+                <div class="offerImg">
+                    <img src="image/fruit-removebg-preview.png" alt="fruits">
+                </div>
+            </div>
+        </section>
+
+        <section class="secTwo">
+            <div class="featuredProducts genLayout">
+                <h3>featured <span>projects</span></h3>
+
+                <a href="#"> View all products</a>
+
+                <div class="productCardWrapper">
+                    <!-- first card -->
+                    <div class="productCard">
+                        <div class="imgCont">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <img src="image/apple-removebg-preview.png" alt="apple">
+                        </div>
+
+                        <div class="cardContent">
+                            <div class="tabs">
+                                <h6>fruits</h6>
+                                <h5><i class="fa fa-star" aria-hidden="true" style="color: #fb9006;"></i> 4.8</h5>
+                            </div>
+
+                            <h1>fresh apple</h1>
+                            <span>500 g</span>
+
+                            <div class="priceTags">
+                                <div class="price">
+                                    <h5>$10.00</h5>
+                                    <span>$12.00</span>
+                                </div>
+                                <button class="cardBtn"><i class="fa fa-shopping-basket" aria-hidden="true"></i> add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class="productCard">
+                        <div class="imgCont">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <img src="image/new_fresh_banana-removebg-preview.png" alt="banana">
+                        </div>
+
+                        <div class="cardContent">
+                            <div class="tabs">
+                                <h6>fruits</h6>
+                                <h5><i class="fa fa-star" aria-hidden="true" style="color: #fb9006"></i> 4.8</h5>
+                            </div>
+
+                            <h1>fresh banana</h1>
+                            <span>500 g</span>
+
+                            <div class="priceTags">
+                                <div class="price">
+                                    <h5>$10.00</h5>
+                                    <span>$12.00</span>
+                                </div>
+                                <button class="cardBtn"><i class="fa fa-shopping-basket" aria-hidden="true"></i> add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="productCard">
+                        <div class="imgCont">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <img src="image/tomato_-removebg-preview.png" alt="potager">
+                        </div>
+
+                        <div class="cardContent">
+                            <div class="tabs">
+                                <h6>fruits</h6>
+                                <h5><i class="fa fa-star" aria-hidden="true" style="color: #fb9006"></i> 4.8</h5>
+                            </div>
+
+                            <h1>fresh potager</h1>
+                            <span>500 g</span>
+
+                            <div class="priceTags">
+                                <div class="price">
+                                    <h5>$10.00</h5>
+                                    <span>$12.00</span>
+                                </div>
+                                <button class="cardBtn"><i class="fa fa-shopping-basket" aria-hidden="true"></i> add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth card -->
+                    <div class="productCard">
+                        <div class="imgCont">
+                            <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                            <img src="image/orange-removebg-preview.png" alt="orange">
+                        </div>
+
+                        <div class="cardContent">
+                            <div class="tabs">
+                                <h6>fruits</h6>
+                                <h5><i class="fa fa-star" aria-hidden="true" style="color: #fb9006";></i> 4.8</h5>
+                            </div>
+
+                            <h1>fresh orange</h1>
+                            <span>500 g</span>
+
+                            <div class="priceTags">
+                                <div class="price">
+                                    <h5>$10.00</h5>
+                                    <span>$12.00</span>
+                                </div>
+                                <button class="cardBtn"><i class="fa fa-shopping-basket" aria-hidden="true"></i> add</button>
+            </section>    
+
+            <section class="secThree">
+                <div class="summerDeals genLayout">
+                    <div class="imgBg">
+                        <div class="emptyImg"></div>
+                    </div>
+
+                    <div class="summerBoard">
+                        <div class="summerBoardContent">
+                            <h1>fresh <span>summer deals</span></h1>
+                            <h5>get $50 off -limited time only</h5>
+
+                            <div class="countDown">
+                                <div class="timeCount">
+                                    <span>06</span>
+                                    <h6>days</h6>
+                                </div>
+                                :
+                                <div class="timeCount">
+                                    <span>23</span>
+                                    <h6>hours</h6>
+                                </div>
+                                :
+                                <div class="timeCount">
+                                    <span>42</span>
+                                    <h6>minutes</h6>
+                                </div>
+                                :
+                                <div class="timeCount">
+                                    <span>10</span>
+                                    <h6>seconds</h6>
+                                </div>
+                            </div>
+
+                            <div class="countBtn">
+                                <button class="btn">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="imgBg imgBg2">
+                        <div class="emptyImg"></div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
 </body>
 </html>
